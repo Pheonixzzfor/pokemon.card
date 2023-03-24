@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Freehand&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+.card {
+    overflow: auto;
+    width: 200px;
+    height: 100px;
+    border: 1px solid var(--ct2);
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 0 8px 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    background:url();
+    color: crimson;
+ }
+
+ .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 20px;
+ }
+
+ .cloud-1 {
+   background: url('https://static.vecteezy.com/system/resources/previews/012/914/405/original/abstract-kawaii-clouds-cartoon-background-free-png.png') center / cover;
+   position: absolute;
+ }
+
+ .container-1 img {
+   padding-left: 200px;
+ }
+
+ body {
+   background: url('https://img.freepik.com/premium-vector/comic-background-with-cloud-illustration_530597-1923.jpg?w=2000') center / cover;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin: 0;
+   height: 130vh;
+ }
+
+ .name {
+   background: url('https://www.freepnglogos.com/uploads/black-pokemon-logo-transparent-27.png') center / cover;
+   width: 400px;
+   height: 180px;
+   margin: 0;
+   align-items: center;
+   margin: 0;
+   margin-left: 450px ;
+ }
+ 
+.btn-prev {
+   background-color: black;
+   color: #fff;
+   padding: 5px 20px;
+   margin: 7px 5px 0px 3px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0px 5px 10px rgba(165, 10, 10, 0.8);
+   transition: all 0.3s ease-in-out;
+   height: 25px;
+}
+
+.btn-prev:hover {
+   background-color: #fff;
+   color: #0a090a;
+   box-shadow: 0px 5px 10px rgba(93, 7, 230, 0.8);
+   transform: translateY(-2px);
+   cursor: pointer;
+}
+
+.btn-next {
+   background-color: black;
+   color: #fff;
+   padding: 5px 20px;
+   margin: 7px 5px 0px 3px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0px 5px 10px rgba(165, 10, 10, 0.8);
+   transition: all 0.3s ease-in-out;
+   height: 25px;
+}
+
+.btn-next:hover {
+   background-color: #fff;
+   color: #0a090a;
+   box-shadow: 0px 5px 10px rgba(93, 7, 230, 0.8);
+   transform: translateY(-2px);
+   cursor: pointer;
+}
+
+.cards-style {
+   color: crimson;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-content {
+   align-items: center;
+   margin-left: 575px;
+   margin-bottom: 20px;
+}
+
+ 

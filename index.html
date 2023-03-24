@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="name"></div>
+    <div id="scene" class="container-1">
+        <div data-depth="0.6" class="cloud-1"></div>
+        <div data-depth="0.9" class="cloud-2"></div>
+        <img data-depth="0.4" src="https://www.pngall.com/wp-content/uploads/5/Cute-Pikachu-PNG-Clipart.png" alt="">
+
+        <div data-depth="1.4" class="ball-1"></div>
+        <div data-depth="1.0" class="ball-2"></div>
+        <div data-depth="1.9" class="ball-3"></div>
+        <!-- <img data-depth="1.4" class="lightning" src="https://www.pngall.com/wp-content/uploads/5/Cute-Pikachu-PNG-Clipart.png" alt=""> -->
+    </div>
+    
+    <!-- <h1>Ассинхронность и Синхронность в js</h1> -->
+    <div class="container"></div>
+    <div class="resultsAboutPokemon"></div>
+
+    <div class="btn-content"> 
+        <button class="btn-prev">back</button> 
+        <span class="counter"></span> 
+        <button class="btn-next">next</button> 
+      </div>    
+
+    
+
+    
+<!-- <script src="script.js"></script> -->
+<script src="pokemon.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene); 
+</script>
+</body>
+</html>
